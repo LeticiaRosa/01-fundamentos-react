@@ -1,0 +1,27 @@
+.header {
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+/*
+
+1 rem = 16px
+0.25 rem = 1/4 de 16px = 4px
+
+1.25rem = 20px
+
+
+0.25rem= 4px
+1rem = 16px
+1.25rem = 20px
+1.5rem = 24px
+1.75rem = 28px
+2rem = 32px
+
+*/
+
+.header img {
+    height: 2rem;
+}
