@@ -81,7 +81,7 @@ export function Post({ author, publishedAt, content }) {
       <form onSubmit={handleCreateNewComment} className={styles.commentForm}>
         <strong>Deixe seu comentário</strong>
         <textarea
-          placeholder="Deixe um comentário aqui"
+          placeholder="Deixe um comentário aqui!"
           name="comment"
           onChange={handleNewCommentChange}
           value={newCommentText}
